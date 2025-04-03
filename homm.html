@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .project-card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .project-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .project-card .card-body {
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            width: 100%;
+            padding: 15px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .project-card:hover .card-body {
+            opacity: 1;
+        }
+        .project-card .card-body h5 {
+            font-size: 1.2rem;
+        }
+        .project-card .card-body p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.PNG" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                Btech Trails
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation Section End -->
+
+    <!-- Header Section -->
+    <header class="jumbotron text-center" role="banner" style="background-image: url('images/header2.PNG'); height: 300px; background-size: cover; background-position: center; color: cyan;">
+        <div class="container">
+            <h1 class="display-4">Hello, welcome to my portfolio</h1>
+            <p>I'm thrilled to have you here. Explore my journey in design, development, and creativity.</p>
+            <p>I help businesses and individuals bring their ideas to life.</p>
+            <p class="lead">Code it. Build it. Scale it. Master the stack.</p>
+            <a href="#projects" class="btn btn-primary btn-lg">View my Work</a>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Who am I?</h2>
+                    <p>
+                        Hi, I’m Bridget Wachira, a versatile Full Stack Developer passionate about building end-to-end solutions that are both functional and visually appealing. With expertise in frontend and backend technologies, I specialize in creating seamless user experiences powered by robust and scalable systems.
+
+                        I thrive on solving complex problems and turning ideas into innovative applications. My skill set includes HTML, CSS, JavaScript, and frameworks like Bootstrap for designing intuitive interfaces, alongside backend tools and databases for managing dynamic content and efficient data handling.
+
+                        I’m committed to continuous learning and exploring new technologies, including cloud computing and DevOps, to deliver modern, future-ready applications. Whether it's developing a web app, optimizing a system, or designing a captivating user interface, I’m here to bring visions to life.
+
+                        Let’s build something extraordinary together!
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/logo.PNG" alt="My Picture" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section
