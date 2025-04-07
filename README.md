@@ -1,5 +1,5 @@
- <a href="home.html"</a>
-Welcome to my portfolio! This website showcases my skills, projects, and expertise as a Full Stack Developer. It features a user-friendly design, interactive elements, and a responsive layout to highlight my journey in web and mobile development.
+ <a href="home.html" class="btn btn-primary">Back to Portfolio</a>
+ Welcome to my portfolio! This website showcases my skills, projects, and expertise as a Full Stack Developer. It features a user-friendly design, interactive elements, and a responsive layout to highlight my journey in web and mobile development.
 
 ## Features
 
